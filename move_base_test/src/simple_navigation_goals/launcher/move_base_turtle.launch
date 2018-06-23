@@ -1,0 +1,12 @@
+<launch>
+  <node pkg="map_server" type="map_server" name="map_server" args="$(find simple_navigation_goals)/maps/testmapturtle.yaml"/>
+  <node pkg="turtlesim" type="turtlesim_node" name="turtlesim1"/>
+  <node pkg="simple_navigation_goals" type="cmd_vel_to_turtlebot" name="cmd_vel_to_turtlebot" output="screen"/>
+  <node pkg="simple_navigation_goals" type="turtlepose_to_odom" name="turtlepose_to_odom" output="screen"/>
+  <node pkg="simple_navigation_goals" type="map_broadcaster" name="map_broadcaster" output="screen"/>
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <rosparam file="$(find simple_navigation_goals)/launcher/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find simple_navigation_goals)/launcher/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find simple_navigation_goals)/launcher/base_local_planner_params.yaml" command="load" /> 
+  </node>
+</launch>
