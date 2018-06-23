@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/james/Desktop/nav_test/move_base_test/src/simple_navigation_goals/src/map_broadcaster.cpp
+/home/james/Desktop/navigation_with_turtlesim/move_base_test/src/simple_navigation_goals/src/map_broadcaster.cpp
 ros/ros.h
 -
 tf/transform_broadcaster.h

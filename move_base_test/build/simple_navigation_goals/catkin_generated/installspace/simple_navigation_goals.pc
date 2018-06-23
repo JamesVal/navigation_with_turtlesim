@@ -1,8 +1,8 @@
-prefix=/home/james/Desktop/nav_test/move_base_test/install
+prefix=/home/james/Desktop/navigation_with_turtlesim/move_base_test/install
 
 Name: simple_navigation_goals
 Description: Description of simple_navigation_goals
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/james/Desktop/nav_test/move_base_test/install/lib 
+Libs: -L/home/james/Desktop/navigation_with_turtlesim/move_base_test/install/lib 
 Requires: 

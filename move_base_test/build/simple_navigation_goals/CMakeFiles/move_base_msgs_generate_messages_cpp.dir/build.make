@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/james/Desktop/nav_test/move_base_test/src
+CMAKE_SOURCE_DIR = /home/james/Desktop/navigation_with_turtlesim/move_base_test/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/james/Desktop/nav_test/move_base_test/build
+CMAKE_BINARY_DIR = /home/james/Desktop/navigation_with_turtlesim/move_base_test/build
 
 # Utility rule file for move_base_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ simple_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/buil
 .PHONY : simple_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build
 
 simple_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/clean:
-	cd /home/james/Desktop/nav_test/move_base_test/build/simple_navigation_goals && $(CMAKE_COMMAND) -P CMakeFiles/move_base_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/james/Desktop/navigation_with_turtlesim/move_base_test/build/simple_navigation_goals && $(CMAKE_COMMAND) -P CMakeFiles/move_base_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : simple_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/clean
 
 simple_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/depend:
-	cd /home/james/Desktop/nav_test/move_base_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/james/Desktop/nav_test/move_base_test/src /home/james/Desktop/nav_test/move_base_test/src/simple_navigation_goals /home/james/Desktop/nav_test/move_base_test/build /home/james/Desktop/nav_test/move_base_test/build/simple_navigation_goals /home/james/Desktop/nav_test/move_base_test/build/simple_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/james/Desktop/navigation_with_turtlesim/move_base_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/james/Desktop/navigation_with_turtlesim/move_base_test/src /home/james/Desktop/navigation_with_turtlesim/move_base_test/src/simple_navigation_goals /home/james/Desktop/navigation_with_turtlesim/move_base_test/build /home/james/Desktop/navigation_with_turtlesim/move_base_test/build/simple_navigation_goals /home/james/Desktop/navigation_with_turtlesim/move_base_test/build/simple_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : simple_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/depend
 

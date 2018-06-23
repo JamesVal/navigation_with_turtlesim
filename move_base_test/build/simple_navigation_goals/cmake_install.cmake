@@ -1,8 +1,8 @@
-# Install script for directory: /home/james/Desktop/nav_test/move_base_test/src/simple_navigation_goals
+# Install script for directory: /home/james/Desktop/navigation_with_turtlesim/move_base_test/src/simple_navigation_goals
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/james/Desktop/nav_test/move_base_test/install")
+  set(CMAKE_INSTALL_PREFIX "/home/james/Desktop/navigation_with_turtlesim/move_base_test/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,37 +33,37 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simple_navigation_goals/cmake" TYPE FILE FILES "/home/james/Desktop/nav_test/move_base_test/build/simple_navigation_goals/catkin_generated/installspace/simple_navigation_goals-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simple_navigation_goals/cmake" TYPE FILE FILES "/home/james/Desktop/navigation_with_turtlesim/move_base_test/build/simple_navigation_goals/catkin_generated/installspace/simple_navigation_goals-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/james/Desktop/nav_test/move_base_test/devel/share/roseus/ros/simple_navigation_goals")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/james/Desktop/navigation_with_turtlesim/move_base_test/devel/share/roseus/ros/simple_navigation_goals")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/james/Desktop/nav_test/move_base_test/devel/lib/python2.7/dist-packages/simple_navigation_goals")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/james/Desktop/navigation_with_turtlesim/move_base_test/devel/lib/python2.7/dist-packages/simple_navigation_goals")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/james/Desktop/nav_test/move_base_test/devel/lib/python2.7/dist-packages/simple_navigation_goals")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/james/Desktop/navigation_with_turtlesim/move_base_test/devel/lib/python2.7/dist-packages/simple_navigation_goals")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/james/Desktop/nav_test/move_base_test/build/simple_navigation_goals/catkin_generated/installspace/simple_navigation_goals.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/james/Desktop/navigation_with_turtlesim/move_base_test/build/simple_navigation_goals/catkin_generated/installspace/simple_navigation_goals.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simple_navigation_goals/cmake" TYPE FILE FILES "/home/james/Desktop/nav_test/move_base_test/build/simple_navigation_goals/catkin_generated/installspace/simple_navigation_goals-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simple_navigation_goals/cmake" TYPE FILE FILES "/home/james/Desktop/navigation_with_turtlesim/move_base_test/build/simple_navigation_goals/catkin_generated/installspace/simple_navigation_goals-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simple_navigation_goals/cmake" TYPE FILE FILES
-    "/home/james/Desktop/nav_test/move_base_test/build/simple_navigation_goals/catkin_generated/installspace/simple_navigation_goalsConfig.cmake"
-    "/home/james/Desktop/nav_test/move_base_test/build/simple_navigation_goals/catkin_generated/installspace/simple_navigation_goalsConfig-version.cmake"
+    "/home/james/Desktop/navigation_with_turtlesim/move_base_test/build/simple_navigation_goals/catkin_generated/installspace/simple_navigation_goalsConfig.cmake"
+    "/home/james/Desktop/navigation_with_turtlesim/move_base_test/build/simple_navigation_goals/catkin_generated/installspace/simple_navigation_goalsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simple_navigation_goals" TYPE FILE FILES "/home/james/Desktop/nav_test/move_base_test/src/simple_navigation_goals/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simple_navigation_goals" TYPE FILE FILES "/home/james/Desktop/navigation_with_turtlesim/move_base_test/src/simple_navigation_goals/package.xml")
 endif()
 

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "simple_navigation_goals"
-PROJECT_SPACE_DIR = "/home/james/Desktop/nav_test/move_base_test/install"
+PROJECT_SPACE_DIR = "/home/james/Desktop/navigation_with_turtlesim/move_base_test/install"
 PROJECT_VERSION = "0.0.0"

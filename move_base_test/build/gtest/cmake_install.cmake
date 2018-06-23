@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/james/Desktop/nav_test/move_base_test/install")
+  set(CMAKE_INSTALL_PREFIX "/home/james/Desktop/navigation_with_turtlesim/move_base_test/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/james/Desktop/nav_test/move_base_test/build/gtest/gtest/cmake_install.cmake")
+  include("/home/james/Desktop/navigation_with_turtlesim/move_base_test/build/gtest/gtest/cmake_install.cmake")
 
 endif()
 

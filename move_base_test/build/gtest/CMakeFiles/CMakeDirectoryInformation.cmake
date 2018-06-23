@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/gmock")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/james/Desktop/nav_test/move_base_test/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/james/Desktop/navigation_with_turtlesim/move_base_test/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/james/Desktop/nav_test/move_base_test/src/simple_navigation_goals/src/cmd_vel_to_turtlebot.cpp
+/home/james/Desktop/navigation_with_turtlesim/move_base_test/src/simple_navigation_goals/src/cmd_vel_to_turtlebot.cpp
 ros/ros.h
-/home/james/Desktop/nav_test/move_base_test/src/simple_navigation_goals/src/ros/ros.h
+/home/james/Desktop/navigation_with_turtlesim/move_base_test/src/simple_navigation_goals/src/ros/ros.h
 geometry_msgs/Twist.h
-/home/james/Desktop/nav_test/move_base_test/src/simple_navigation_goals/src/geometry_msgs/Twist.h
+/home/james/Desktop/navigation_with_turtlesim/move_base_test/src/simple_navigation_goals/src/geometry_msgs/Twist.h
 
 /opt/ros/lunar/include/geometry_msgs/Twist.h
 string

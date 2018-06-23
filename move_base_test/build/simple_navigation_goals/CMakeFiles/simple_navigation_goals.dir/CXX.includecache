@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/james/Desktop/nav_test/move_base_test/src/simple_navigation_goals/src/simple_navigation_goals.cpp
+/home/james/Desktop/navigation_with_turtlesim/move_base_test/src/simple_navigation_goals/src/simple_navigation_goals.cpp
 ros/ros.h
 -
 move_base_msgs/MoveBaseAction.h

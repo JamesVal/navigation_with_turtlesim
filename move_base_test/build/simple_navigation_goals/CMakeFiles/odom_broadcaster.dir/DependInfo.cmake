@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/james/Desktop/nav_test/move_base_test/src/simple_navigation_goals/src/odom_broadcaster.cpp" "/home/james/Desktop/nav_test/move_base_test/build/simple_navigation_goals/CMakeFiles/odom_broadcaster.dir/src/odom_broadcaster.cpp.o"
+  "/home/james/Desktop/navigation_with_turtlesim/move_base_test/src/simple_navigation_goals/src/odom_broadcaster.cpp" "/home/james/Desktop/navigation_with_turtlesim/move_base_test/build/simple_navigation_goals/CMakeFiles/odom_broadcaster.dir/src/odom_broadcaster.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

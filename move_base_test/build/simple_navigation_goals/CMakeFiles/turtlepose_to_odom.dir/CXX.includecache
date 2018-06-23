@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/james/Desktop/nav_test/move_base_test/src/simple_navigation_goals/src/turtlepose_to_odom.cpp
+/home/james/Desktop/navigation_with_turtlesim/move_base_test/src/simple_navigation_goals/src/turtlepose_to_odom.cpp
 ros/ros.h
-/home/james/Desktop/nav_test/move_base_test/src/simple_navigation_goals/src/ros/ros.h
+/home/james/Desktop/navigation_with_turtlesim/move_base_test/src/simple_navigation_goals/src/ros/ros.h
 tf/transform_broadcaster.h
-/home/james/Desktop/nav_test/move_base_test/src/simple_navigation_goals/src/tf/transform_broadcaster.h
+/home/james/Desktop/navigation_with_turtlesim/move_base_test/src/simple_navigation_goals/src/tf/transform_broadcaster.h
 nav_msgs/Odometry.h
-/home/james/Desktop/nav_test/move_base_test/src/simple_navigation_goals/src/nav_msgs/Odometry.h
+/home/james/Desktop/navigation_with_turtlesim/move_base_test/src/simple_navigation_goals/src/nav_msgs/Odometry.h
 geometry_msgs/Quaternion.h
-/home/james/Desktop/nav_test/move_base_test/src/simple_navigation_goals/src/geometry_msgs/Quaternion.h
+/home/james/Desktop/navigation_with_turtlesim/move_base_test/src/simple_navigation_goals/src/geometry_msgs/Quaternion.h
 turtlesim/Pose.h
-/home/james/Desktop/nav_test/move_base_test/src/simple_navigation_goals/src/turtlesim/Pose.h
+/home/james/Desktop/navigation_with_turtlesim/move_base_test/src/simple_navigation_goals/src/turtlesim/Pose.h
 
 /opt/ros/lunar/include/geometry_msgs/Point.h
 string
